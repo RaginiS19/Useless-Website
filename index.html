@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Procrasti-Nator 2.0 | Fake Productivity Suite</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>PROCRASTI-NATOR 2.0</h1>
+      <p class="tagline">Advanced Fake Productivity Metrics Dashboard</p>
+    </header>
+
+    <section class="productivity-score">
+      <p>Your Current Productivity: <span id="score">0</span>%</p>
+      <div class="chart-container">
+        <canvas id="productivityChart" aria-label="Fake Productivity Chart" role="img"></canvas>
+      </div>
+    </section>
+
+    <section class="dashboard">
+      <div class="widget">
+        <h3 class="widget-title">Task Simulator</h3>
+        <div class="progress-container" aria-label="Task Progress">
+          <div class="progress-bar" id="taskProgress" style="width: 0%"></div>
+          <div class="progress-text" id="progressText">0%</div>
+        </div>
+        <button id="completeTask" aria-label="Simulate Work">Simulate Work</button>
+      </div>
+
+      <div class="widget">
+        <h3 class="widget-title">Meeting Tracker</h3>
+        <div class="progress-container" aria-label="Meeting Progress">
+          <div class="progress-bar" id="meetingProgress" style="width: 0%"></div>
+          <div class="progress-text" id="meetingText">00:00</div>
+        </div>
+        <button id="startMeeting" aria-label="Start Fake Meeting">Start Fake Meeting</button>
+      </div>
+    </section>
+
+    <section class="widget">
+      <h3 class="widget-title">Task List</h3>
+      <ul class="task-list" id="taskList">
+        <li>Initialize productivity matrix</li>
+        <li>Align paradigm synergies</li>
+        <li>Leverage core competencies</li>
+      </ul>
+      <button id="addTask" aria-label="Add Random Task">Add Random Task</button>
+    </section>
+
+    <section class="controls">
+      <button id="generateReport" aria-label="Generate Fake Report">Generate Report</button>
+      <button id="panicMode" aria-label="Trigger Panic Mode">🚨 Panic Mode</button>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,30 +1,34 @@
 # Useless-Website
 
-💤 Procrasti-Nator 2.0 | Fake Productivity Suite
+💤 # Procrasti-Nator 2.0 😎🕒| Fake Productivity Suite
 
 Procrasti-Nator 2.0 is a humorous, interactive web dashboard designed to simulate productivity for fun or creative portfolios. Whether you're avoiding real work or building a front-end skillset, this app mimics the illusion of performance with fake charts, simulated tasks, and panic buttons.
 
-🎯 Features
-Fake Productivity Score
-Track a completely meaningless score that increases with every fake task or meeting.
+A completely useless yet strangely satisfying **fake productivity dashboard** built as a contribution to the [Useless Web](https://theuselessweb.com/) for a Vibe Coding assignment.
 
-Animated Line Chart
-Visualize your "workload" with a dynamic Chart.js graph.
+This tool is *guaranteed* to boost your fake productivity by 200% — with zero actual work being done.
 
-Task Simulator
-Watch a progress bar fill up as you pretend to work.
+## 💻 What It Does
 
-Meeting Tracker
-Start fake meetings with an updating timer and animated progress.
+- 📊 Displays a fake productivity chart (Chart.js)
+- ✅ Simulates task progress with a fake progress bar
+- 📅 Starts a completely pointless fake meeting timer
+- 📋 Generates random corporate jargon tasks
+- 🧨 Has a "Panic Mode" that *definitely* won’t help in a real emergency
+- 🧠 All powered by JavaScript and pure nonsense
 
-Corporate Buzzword Generator
-Add randomized fake tasks to your list using modern corporate jargon.
+## 🛠️ Built With
 
-Report Generator
-Generate a fake 27-page report (that no one will ever read).
+- HTML5 + CSS3 + JavaScript
+- [Chart.js](https://www.chartjs.org/)
+- GitHub Copilot (for Vibe Coding challenge)
 
-Panic Mode
-Quickly switch the screen to a panic state when someone walks by!
+## 🚀 Live Demo
+
+👉 [View the Live Site Here](https://yourusername.github.io/useless-web-procrastinator/)
+
+## 📂 Project Structure
+
 
 🧩 Technologies Used
 HTML5 – Semantic structure and accessibility.
